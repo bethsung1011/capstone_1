@@ -1,10 +1,10 @@
-# capstone_1
+# Cap Stone 1 Proposal 
 
 -------
 
-# proposal 1: 
+##  Proposal 1: 
 
-[SF Salaries](https://www.kaggle.com/kaggle/sf-salaries)
+##  [SF Salaries](https://www.kaggle.com/kaggle/sf-salaries)
 
 ## information of the dataset: 
 
@@ -19,9 +19,9 @@ One way to understand how a city government works is by looking at who it employ
 
 -------
 
-# proposal 2: 
+##   proposal 2: 
 
-[Ramen Ratings](https://www.kaggle.com/residentmario/ramen-ratings)
+##  [Ramen Ratings](https://www.kaggle.com/residentmario/ramen-ratings)
 
 ## information of the dataset: 
 
@@ -39,9 +39,9 @@ Each record in the dataset is a single ramen product review. Review numbers are 
 -------
 
 
-# proposal 3: 
+##  proposal 3: 
 
-[Consumer Reviews of Amazon Products](https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products?select=Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv)
+##  [Consumer Reviews of Amazon Products](https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products?select=Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv)
 
 ## information of the dataset: 
 
