@@ -6,23 +6,19 @@
 
 ##  [Data Analyst Jobs](https://www.kaggle.com/andrewmvd/data-analyst-jobs?select=DataAnalyst.csv)
 
-## information of the dataset: 
+* information of the dataset: 
+  - 2253 job listings scraped from glassdoor
 
-2253 job listings scraped from glassdoor
+* what to explore  
+  - Would like to explore the Data Analyst job, location, company rating
 
-## what to explore  
+* visualization 
+  - Look through the company rating and salary estimate
+  - Compare salary between company and between locations 
 
-- Would like to explore the Data Analyst job, location, company rating
-
-## visualization 
-
-* Look through the company rating and salary estimate
-* Compare salary between company and between locations 
-
-## hypothesis 
-
-* looking into a relationship between salary estimate and company rating 
-* looking into a relationship between company size and rating of the company
+* hypothesis 
+  - looking into a relationship between salary estimate and company rating 
+  - looking into a relationship between company size and rating of the company
 
 
 -------
