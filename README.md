@@ -1,25 +1,33 @@
 # Cap Stone 1 Proposal 
 
--------
+
 
 ##  Proposal 1: 
 
-##  [SF Salaries](https://www.kaggle.com/kaggle/sf-salaries)
+##  [Data Analyst Jobs](https://www.kaggle.com/andrewmvd/data-analyst-jobs?select=DataAnalyst.csv)
 
 ## information of the dataset: 
 
-Explore San Francisco city employee salary data
-One way to understand how a city government works is by looking at who it employs and how its employees are compensated. This data contains the names, job title, and compensation for San Francisco city employees on an annual basis from 2011 to 2014.
+2253 job listings scraped from glassdoor
 
 ## what to explore  
 
+- Would like to explore the Data Analyst job, location, company rating
+
 ## visualization 
+
+* Look through the company rating and salary estimate
+* Compare salary between company and between locations 
 
 ## hypothesis 
 
+* looking into a relationship between salary estimate and company rating 
+* looking into a relationship between company size and rating of the company
+
+
 -------
 
-##   proposal 2: 
+##   Proposal 2: 
 
 ##  [Ramen Ratings](https://www.kaggle.com/residentmario/ramen-ratings)
 
@@ -39,7 +47,7 @@ Each record in the dataset is a single ramen product review. Review numbers are 
 -------
 
 
-##  proposal 3: 
+##  Proposal 3: 
 
 ##  [Consumer Reviews of Amazon Products](https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products?select=Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv)
 
