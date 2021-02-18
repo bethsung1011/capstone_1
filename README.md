@@ -19,6 +19,7 @@
 * hypothesis 
   - looking into a relationship between salary estimate and company rating 
   - looking into a relationship between company size and rating of the company
+  - looking into a relationship between industry and salary estimate 
 
 
 -------
