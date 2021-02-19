@@ -1,55 +1,52 @@
-# Cap Stone 1 Proposal 
+# Capstone 1 Proposal
 
 ##  Proposal 1:  [Data Analyst Jobs](https://www.kaggle.com/andrewmvd/data-analyst-jobs)
 
-* information of the dataset: 
+### information of the dataset:
   - 2253 job listings scraped from glassdoor
 
-* what to explore / to visualize  
-  - Explore the Data Analyst job, location, company rating
-  - Look through the company rating and salary estimate
-  - Compare salary between company and locations 
+### what to explore / to visualize  
+- Histogram of salary and location 
+- Plot of company rating and salary estimate
+- Compare salary between company and locations
 
-* hypothesis 
-  - look into a relationship between salary estimate and company rating 
-  - compare company size and rating of the company
-  - compare the difference between industry and salary estimate 
+### possible hypothesis
+  - Company size has big impact on rating of the company
+  - There are big salary estimate gap with industry and location 
 
 -------
 
 ##   Proposal 2: [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset?select=WA_Fn-UseC_-HR-Employee-Attrition.csv)
 
-* information of the dataset: 
+### information of the dataset:
 Predict attrition of your valuable employees, Uncover the factors that lead to employee attrition and explore important questions such as ‘show me a breakdown of distance from home by job role and attrition’ or ‘compare average monthly income by education and attrition’. This is a fictional data set created by IBM data scientists.
 
-* what to explore / to visualize
-  - Education 
-  - Environment Satisfaction
-  - Job Involvement
-  - Job Satisfaction
-  - Performance Rating
-  - Relationship Satisfaction
-  - WorkLife Balance
+###  what to explore / to visualize
+  - Relationship map between variables (maybe heatmap tbd)
+  - Graph for Education and Job role, Environment Satisfaction, Job Involvement and Job Satisfaction (Cannot tell what is the best matplotlib options will be)
+  - Plot Performance Rating and Relationship Satisfaction
 
-* hypothesis 
+###  possible hypothesis
 
-- Relationship between hourly rate and job satisfaction 
-- Relationship between job satisfaction and relationship satisfaction 
-- so many more 
+- Performance Rating and and Relationship Satisfaction are the main factors of Job Satisfaction.
+- Average incomes are significantly different between gender.
+- so many more
 
 -------
 
 ##  Proposal 3: [Used Cars Dataset](https://www.kaggle.com/austinreese/craigslist-carstrucks-data)
 
-* information of the dataset: 
+### information of the dataset:
   - Vehicles listings from Craigslist.org
 
-* what to explore / to visualize  
-  - each independent variables and price relationship                       
-  - price swinging factors 
+### what to explore / to visualize  
+  - plot regions and average price of vehicle
+  - heatmap each independent variables and price relationship                       
+  - pearson correlation price swinging factors
  
-* hypothesis 
-  - odometer and price 
-  - price and region relationship
-  - year and model difference to price of vehicle
+###  possible hypothesis
+  - The model and manufacturer have no statistically significant difference to the mean value of price of vehicle.
+  - Depending on the region the price of vehicle varies.
+  - The odometer is the biggest price swinger.
+
 
