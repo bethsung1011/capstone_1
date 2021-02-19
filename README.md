@@ -2,56 +2,61 @@
 
 ##  Proposal 1: 
 
-##  [Data Analyst Jobs](https://www.kaggle.com/andrewmvd/data-analyst-jobs?select=DataAnalyst.csv)
+##  [Data Analyst Jobs](https://www.kaggle.com/andrewmvd/data-analyst-jobs)
 
 * information of the dataset: 
   - 2253 job listings scraped from glassdoor
 
-* what to explore  
-  - Would like to explore the Data Analyst job, location, company rating
-
-* visualization 
+* what to explore / visualization  
+  - Explore the Data Analyst job, location, company rating
   - Look through the company rating and salary estimate
   - Compare salary between company and between locations 
 
 * hypothesis 
   - looking into a relationship between salary estimate and company rating 
-  - looking into a relationship between company size and rating of the company
-  - looking into a relationship between industry and salary estimate 
-
+  - compare company size and rating of the company
+  - compare the difference between industry and salary estimate 
 
 -------
 
 ##   Proposal 2: 
 
-##  [Ramen Ratings](https://www.kaggle.com/residentmario/ramen-ratings)
+##  [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset?select=WA_Fn-UseC_-HR-Employee-Attrition.csv)
 
 * information of the dataset: 
+Predict attrition of your valuable employees, Uncover the factors that lead to employee attrition and explore important questions such as ‘show me a breakdown of distance from home by job role and attrition’ or ‘compare average monthly income by education and attrition’. This is a fictional data set created by IBM data scientists.
 
-The Ramen Rater is a product review website for the hardcore ramen enthusiast (or "ramenphile"), with over 2500 reviews to date. This dataset is an export of "The Big List" (of reviews), converted to a CSV format.
-
-Each record in the dataset is a single ramen product review. Review numbers are contiguous: more recently reviewed ramen varieties have higher numbers. Brand, Variety (the product name), Country, and Style (Cup? Bowl? Tray?) are pretty self-explanatory. Stars indicate the ramen quality, as assessed by the reviewer, on a 5-point scale; this is the most important column in the dataset!
-
-
-* what to explore  
-
-* visualization 
+* what to explore / to visualize
+  - Education 
+  - Environment Satisfaction
+  - Job Involvement
+  - Job Satisfaction
+  - Performance Rating
+  - Relationship Satisfaction
+  - WorkLife Balance
 
 * hypothesis 
 
+- Relationship between hourly rate and job satisfaction 
+- Relationship between job satisfaction and relationship satisfaction 
+- so many more 
 
 -------
 
-
 ##  Proposal 3: 
 
-##  [Consumer Reviews of Amazon Products](https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products?select=Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv)
+##  [Used Cars Dataset](https://www.kaggle.com/austinreese/craigslist-carstrucks-data)
 
 * information of the dataset: 
-  - A list of over 34,000 reviews of Amazon products like the Kindle, Fire TV, etc. This is a list of over 34,000 consumer reviews for Amazon products like the Kindle, Fire TV Stick, and more provided by Datafiniti's Product Database. The dataset includes basic product information, rating, review text, and more for each product. 
-- 
-* what to explore  
+  - Vehicles listings from Craigslist.org
 
-* visualization 
-
+* what to explore / visualization  
+  - compare location of the vehicle and price                           
+  - codition of vehicle and price 
+  - price swinging factors 
+ 
 * hypothesis 
+  - odometer and price 
+  - price and region relationship
+  - year and model difference to price of vehicle
+
