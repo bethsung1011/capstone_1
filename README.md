@@ -15,7 +15,7 @@
   - There are big salary estimate gap with industry and location 
 
 
-![minimum and maximum salary][minmaxsal.png]
+![](img/minmaxsal.png)
 -------
 
 ##   Proposal 2: [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset?select=WA_Fn-UseC_-HR-Employee-Attrition.csv)
