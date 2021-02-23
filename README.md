@@ -10,7 +10,7 @@
   - Rating : 37
   - Comapny Name : 2253
   - Location : 
-  - Headquarter
+  - Headquarter : 
   - Size
   - Founded
   - Type of ownership
@@ -19,6 +19,32 @@
   - Revenue
   - Competitors 
   - Easy To Apply
+
+## Visualization 
+
+ - 2253 job listings scraped from glassdoor
+  - Job title :  1272
+  - Salary Range :  90 
+  - Job Description :  many
+  - Rating - Rating and  Location, Rating and Salary, Rating and Size, Rating and industry
+  - Comapny Name : 2253
+  - Location : Location and Salary relationship
+  - Headquarter : Maybe droping since I cannot tell the relationship between headquarter 
+  - Size
+  - Founded :
+  - Type of ownership
+  - Industry - Which industry has high demand on Data Analyst?
+  - Sector
+  - Revenue - Categorical??? - Seabourn - Relationship between revenue and data analyst demand/ salary  
+  - Competitors - Not many information - going to drop
+  - Easy To Apply  - Which company has job opening?? In which location? how much do they offer? - maybe just a table
+
+# What to Do 
+
+
+# Hypothesis 
+
+
 
 
 ### what to explore / to visualize  
