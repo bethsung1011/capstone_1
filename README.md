@@ -1,3 +1,41 @@
+# Capstone 1
+
+[Data Analyst Jobs](https://www.kaggle.com/andrewmvd/data-analyst-jobs)
+
+### information of the dataset:
+  - 2253 job listings scraped from glassdoor
+  - Job title :  1272
+  - Salary Range :  90 
+  - Job Description :  many
+  - Rating : 37
+  - Comapny Name : 2253
+  - Location : 
+  - Headquarter
+  - Size
+  - Founded
+  - Type of ownership
+  - Industry
+  - Sector
+  - Revenue
+  - Competitors 
+  - Easy To Apply
+
+
+### what to explore / to visualize  
+- Histogram of salary and location 
+- Plot of company rating and salary estimate
+- Compare salary between company and locations
+
+### possible hypothesis
+  - Company size has big impact on rating of the company
+  - There are big salary estimate gap with industry and location 
+
+
+
+
+![](img/minmaxsal.png)
+
+
 # Capstone 1 Proposal
 
 ##  Proposal 1:  [Data Analyst Jobs](https://www.kaggle.com/andrewmvd/data-analyst-jobs)
@@ -15,8 +53,9 @@
   - There are big salary estimate gap with industry and location 
 
 
-![](img/minmaxsal.png)
 -------
+
+
 
 ##   Proposal 2: [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset?select=WA_Fn-UseC_-HR-Employee-Attrition.csv)
 
