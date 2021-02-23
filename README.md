@@ -41,10 +41,17 @@
 
 # What to Do 
 
+- What kind of map I can use when I only have state and city with company counts?
+- Can I make a heatmap on Salary and location??
 
 # Hypothesis 
 
+More Demand in condensed location (CA/NY/TX) pays higher salary due to COLA.
+  - bring COLA index of those states and plot to see whether it works (maybe?)
 
+High Rating of company pays higher salary. 
+  - How rating is positively related to salalry?
+  - 
 
 
 ### what to explore / to visualize  
