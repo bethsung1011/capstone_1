@@ -20,107 +20,115 @@
   - Competitors 
   - Easy To Apply
 
-## Visualization 
 
- - 2253 job listings scraped from glassdoor
-  - Job title :  1272
-  - Salary Range :  90 
-  - Job Description :  many
-  - Rating - Rating and  Location, Rating and Salary, Rating and Size, Rating and industry
-  - Comapny Name : 2253
-  - Location : Location and Salary relationship
-  - Headquarter : Maybe droping since I cannot tell the relationship between headquarter 
-  - Size
-  - Founded :
-  - Type of ownership
-  - Industry - Which industry has high demand on Data Analyst?
-  - Sector
-  - Revenue - Categorical??? - Seabourn - Relationship between revenue and data analyst demand/ salary  
-  - Competitors - Not many information - going to drop
-  - Easy To Apply  - Which company has job opening?? In which location? how much do they offer? - maybe just a table
-
-# What to Do 
-
-- What kind of map I can use when I only have state and city with company counts?
-- Can I make a heatmap on Salary and location??
-
-# Hypothesis 
-
-More Demand in condensed location (CA/NY/TX) pays higher salary due to COLA.
-  - bring COLA index of those states and plot to see whether it works (maybe?)
-
-High Rating of company pays higher salary. 
-  - How rating is positively related to salalry?
-  - 
+---------------------------- 
 
 
-### what to explore / to visualize  
-- Histogram of salary and location 
-- Plot of company rating and salary estimate
-- Compare salary between company and locations
+### Top 4 states looking for data analysts are CA, TX, NY, and IL 
 
-### possible hypothesis
-  - Company size has big impact on rating of the company
-  - There are big salary estimate gap with industry and location 
+![](img/minmaxsal.png)
+
+
+
+---------------------------- 
+
+### Salary Range: 24K-190K  
+
+Min Max Salary of Data Analyst job in Glass door in general  
+
+![](img/stateanddemand.png)
+
+Mean of maximum salary estimate: 89 K 
+Mean of minimum salary estimate:  50 K  
+
+![](img/stateanddemand.png)
+
+---------------------------- 
+
+### Rich company (Company generate high revenue) looking for data analyst are : 
+
+	- Insurance 
+    Mining 
+    Aerospace 
+    Finance 
+
+ 
+
+-------------Statistical Test-------------------- 
+
+Since people who use Glassdoor rate about how good the company is, I wonder how Company rating is positively related to salary or not. Company with high rating pays more??  To answer the question, I conducted hypothesis testing.  
+ 
+
+### hypothesis 1  
+    
+  ### Null: Company rating and high salary boundary are not positively correlated 
+  ### Alternative: Company rating and high salary boundary are positively correlated 
+
+
+![](img/rating_salary_corr.png)
+
+
+When I conducted Pearson correlation test, it shows 0.05 correlation between Rating and Max Salary and 0.02 correlation between Rating and Min Salary with my original data. Since the dataset is around 2000 samples, we are going to do bootstrapping and conduct correlation test accordingly. 
+ 
+
+
+As the result, With 95% confidence interval, I can say bootstrap_salary_upper correlation is from  0.101 to 0.09  
+
+ [0.011347007366033238, 0.09074888578231032 ] 
+
+
+
+With 95% confidence interval,  bootstrap_salary_lower correlation is from from –0.02 to 0.07. 
+ 
+
+[-0.021413976305863825, 0.07173311436767897] 
+
+ 
+
+### Conclusion:  
+
+* I reject Null hypothesis for company rating and higher salary because  0 is laid outside of 95% confidence interval. I can say High rating company and higher salary may be positively correlated.  
+
+* I failed to reject Null hypothesis since my 0 is laid in 95% confidence interval  and high company rating and lower salary boundary may not be positively correlated. 
+
+ 
+
+ 
+
+### hypothesis 2  
+
+Since it is Glass door shows in their data that what kind of companies (which industry, how many employee they have, how much revenue they generate)  when they look for data analysts, it might be interesting to look at whether high revenue generating companies offer higher salary boundary when they offer a job to data analyst.  
+
+ 
+
+### Null - Company revenue and high salary boundary are not positively correlated.  
+### Alternative- Company revenue and high salary boundary are positively correlated. I conducted Pearson Correlation with Bootstrapping.  
+
+I got bootstrap_salary_upper correlation is –0.05 to 0.02 
+[-0.05725261745947094, 0.022103673678014562 ] 
+
+I got bootstrap_salary_lower correlation is from –0.05 to 0.02 
+[-0.054171562416393065, 0.026781082702684506]  
+
+
+
+### Conclusion:  
+
+I failed to reject the null hypothesis for both higher and lower salary estimate with high revenue companies because 0 correlation is laid inside of 95% confidence interval.  Both correlations are less or equal in general; company makes high revenue generating and data analyst salary estimate are not positively correlated.   
+
+
+# Moving forward …. 
+
+	I would like to investigate job description and job titles and correlation to salary estimate. Although I could find key words,  and counted how many times it mentioned but I could not spot with the column that mentions the word.       
+
+
 
 
 
 
 ![](img/minmaxsal.png)
 
+![](img/stateanddemand.png)
 
-# Capstone 1 Proposal
-
-##  Proposal 1:  [Data Analyst Jobs](https://www.kaggle.com/andrewmvd/data-analyst-jobs)
-
-### information of the dataset:
-  - 2253 job listings scraped from glassdoor
-
-### what to explore / to visualize  
-- Histogram of salary and location 
-- Plot of company rating and salary estimate
-- Compare salary between company and locations
-
-### possible hypothesis
-  - Company size has big impact on rating of the company
-  - There are big salary estimate gap with industry and location 
-
-
--------
-
-
-
-##   Proposal 2: [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset?select=WA_Fn-UseC_-HR-Employee-Attrition.csv)
-
-### information of the dataset:
-  - Predict attrition of your valuable employees, Uncover the factors that lead to employee attrition and explore important questions such as ‘show me a breakdown of distance from home by job role and attrition’ or ‘compare average monthly income by education and attrition’. This is a fictional data set created by IBM data scientists.
-
-###  what to explore / to visualize
-  - Relationship map between variables (maybe heatmap tbd)
-  - Graph for Education and Job role, Environment Satisfaction, Job Involvement and Job Satisfaction (Cannot tell what is the best matplotlib options will be)
-  - Plot Performance Rating and Relationship Satisfaction
-
-###  possible hypothesis
-
-- Performance Rating and and Relationship Satisfaction are the main factors of Job Satisfaction.
-- Average incomes are significantly different between gender.
-- so many more
-
--------
-
-##  Proposal 3: [Used Cars Dataset](https://www.kaggle.com/austinreese/craigslist-carstrucks-data)
-
-### information of the dataset:
-  - Vehicles listings from Craigslist.org
-
-### what to explore / to visualize  
-  - plot regions and average price of vehicle
-  - heatmap each independent variables and price relationship                       
-  - pearson correlation price swinging factors
- 
-###  possible hypothesis
-  - The model and manufacturer have no statistically significant difference to the mean value of price of vehicle.
-  - Depending on the region the price of vehicle varies.
-  - The odometer is the biggest price swinger.
 
 
