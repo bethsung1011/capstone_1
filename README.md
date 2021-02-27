@@ -24,9 +24,9 @@
 ---------------------------- 
 
 
-### Top 4 states looking for data analysts are CA, TX, NY, and IL 
+### States looking for data analysts are CA, TX, NY, and IL 
 
-![](img/minmaxsal.png)
+![](img/1.data_analysts_job_demand.png)
 
 
 
@@ -36,12 +36,12 @@
 
 Min Max Salary of Data Analyst job in Glass door in general  
 
-![](img/stateanddemand.png)
+![](img/states_median.png)
 
 Mean of maximum salary estimate: 89 K 
 Mean of minimum salary estimate:  50 K  
 
-![](img/stateanddemand.png)
+![](img/min_max_salary.png)
 
 ---------------------------- 
 
@@ -52,7 +52,7 @@ Mean of minimum salary estimate:  50 K
     Aerospace 
     Finance 
 
- 
+![](img/Revenue_of_Industry_Sectors_demanding_Data_Analyst.png)
 
 -------------Statistical Test-------------------- 
 
@@ -71,16 +71,14 @@ Since people who use Glassdoor rate about how good the company is, I wonder how 
 When I conducted Pearson correlation test, it shows 0.05 correlation between Rating and Max Salary and 0.02 correlation between Rating and Min Salary with my original data. Since the dataset is around 2000 samples, we are going to do bootstrapping and conduct correlation test accordingly. 
  
 
+![](img/10.95CI_rating_upper_salary.jpg)
 
 As the result, With 95% confidence interval, I can say bootstrap_salary_upper correlation is from  0.101 to 0.09  
-
  [0.011347007366033238, 0.09074888578231032 ] 
 
+![](img/11.95CI_rating_lower_salary.jpg)
 
-
-With 95% confidence interval,  bootstrap_salary_lower correlation is from from –0.02 to 0.07. 
- 
-
+With 95% confidence interval,  bootstrap_salary_lower correlation is from from –0.02 to 0.07.  
 [-0.021413976305863825, 0.07173311436767897] 
 
  
