@@ -1,21 +1,15 @@
 # Capstone 1 
 
-
-[Data Analyst Jobs](https://www.kaggle.com/andrewmvd/data-analyst-jobs) 
-
-
 ![](img/0.intro.png) 
 
 
-
 Today I am going to present Glassdoor Data Analyst job posting.  
-In the data there are 2253 company job postings with information below.  
 
+## Motivation:  
 
+[Data Analyst Jobs](https://www.kaggle.com/andrewmvd/data-analyst-jobs) 
 
-
-
-## information of the dataset: 
+Amidst the pandemic many people lost their jobs, with this dataset it is possible to hone the job search so that more people in need can find employment. This dataset was created by [picklesueat](https://github.com/picklesueat/data_jobs_data) and contains more than 2000 job listing for data analyst positions, with features such as:
 
 - 2253 job listings scraped from Glass door 
 - Job title  
@@ -35,6 +29,7 @@ In the data there are 2253 company job postings with information below.
 
 
 
+<br>
 
 ## Demand on Data Analysts per State  
 
@@ -46,7 +41,7 @@ California has most job demands followed by Texas and New York.
 
 
 
-
+<br>
 
 ## Top 20 cities Demand on Data Analysts  
 
