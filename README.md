@@ -39,7 +39,10 @@ In the data there are 2253 company job postings with information below.
 
 ## Top 20 cities Demand on Data Analysts  
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 07bd182f039e121badb115b37922de4e7ec3aed4
 ![](https://github.com/bethsung1011/capstone_1/blob/main/img/2.Top_20_Cities_for_Data%20Analysts_Job_Demand.jpg)
 
 
@@ -191,15 +194,6 @@ Due to the difference on salary gap, I made a table of the cost of livings adjus
 ## Moving forward …. 
 
 I would like to investigate job description and job titles and correlation to salary estimate. Although I could find key words and rank about how many times the keywords are mentioned but I could not spot the information column that mentions the word. With Natural Language Process, there will be wider spectrum to explore about this data and to find more meaningful relationship.       
-
-
-
-
-
-
-![](img/minmaxsal.png)
-
-![](img/stateanddemand.png)
 
 
 
