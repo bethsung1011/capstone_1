@@ -163,8 +163,8 @@ This is scatter plot between company rating and salary estimate. Blue is high / 
 
 ## hypothesis 1  
 
-#### H0: Company rating and high salary boundary are not positively correlated  
-#### H1: Company rating and high salary boundary are positively correlated  
+- **H0: Company rating and high salary boundary are not positively correlated.**  
+- **H1: Company rating and high salary boundary are positively correlated.**  
 
 
 
@@ -208,8 +208,8 @@ With 95% confidence interval, bootstrap_salary_lower correlation is from from â€
 Since Glassdoor shows in their data about what kind of companies (which industry, how many employees they have, how much revenue they generate), when they look for data analysts, it might be interesting to look at whether high revenue generating companies offer higher salary boundary when they offer a job to data analyst.  
 
 
-#### H0: Company revenue and high salary boundary are not positively correlated.  
-#### H1: Company revenue and high salary boundary are positively correlated.  
+- **H0: Company revenue and high salary boundary are not positively correlated.**  
+- **H1: Company revenue and high salary boundary are positively correlated.**  
 
 When I conducted Pearson correlation test, it already shows negative correlation between Rating and Max Salary (-0.017) and -0.014 correlation between Rating and Min Salary with my original data. 
 
