@@ -264,6 +264,9 @@ Due to the difference on salary gap, I made a table of the cost of livings adjus
 ## Moving forward ….  
 
 
-I would like to investigate job description and job titles and correlation to salary estimate. Although I could find key words and rank about how many times the keywords are mentioned but I could not spot the information column that mentions the word. With Natural Language Process, there will be wider spectrum to explore about this data and to find more meaningful relationship.  
+I would like to investigate job description, job titles and correlation between job title & job description and salary estimate. Although I found key words (SQL, Communication, coding, database, ect) and how many times the keywords were mentioned but I could not spot the exact column the keyword was mentioned. With Natural Language Process, there will be wider spectrum to explore  this data and to find more meaningful relationship.  
+
+Thank you. 
+
 
 
