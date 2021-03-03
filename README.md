@@ -28,7 +28,7 @@
 
 ### States looking for data analysts are CA, TX, NY, and IL 
 
-![](img/1.data_analysts_job_demand.png)
+![](img/1.data_analysts_job_demand.jpg)
 
 ![](img/2.Top_20_Cities_for_Data Analysts_Job_Demand.jpg)
 
@@ -60,13 +60,8 @@ Mean of minimum salary estimate:  50 K
 
 
 
-
 ![](img/5.Demand_on_Data_Analyst_per_Sector.jpg)
 
-
-
-
-![](img/5.Distribution_of_data.jpg)
 
 
 
