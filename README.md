@@ -47,11 +47,14 @@ California has most job demands followed by Texas and New York.
 
 
 
+
 ## Top 20 cities Demand on Data Analysts  
 
-![](img/Top_20_Cities_for_Data Analysts_Job_Demand.jpg) 
+![](https://github.com/bethsung1011/capstone_1/blob/main/img/Top_20_Cities_for_Data%20Analysts_Job_Demand.jpg) 
 
 Citi-wise although New York city has the most job, it is because jog postings are all over in Texas and California. 
+
+
 
 
 
@@ -69,6 +72,8 @@ As you can see in the boxplot, California has the highest salary estimate and it
 
 
 
+
+
 ## Salary Range: 24K-190K  
 
 
@@ -78,6 +83,8 @@ Min Max Salary of Data Analyst job in Glass door:
 
 Mean of maximum salary estimate: 89 K  
 Mean of minimum salary estimate: 50 K  
+
+
 
 
 
@@ -101,12 +108,16 @@ Insurance industries generate most revenue and next is mining. Interestingly Inf
 
 
 
+
+
 ## Industrial Sector Demanding Data Analyst 
 
 
 ![](img/5.Demand_on_Data_Analyst_per_Sector.jpg) 
 
 Of course, Information & Technology companies look for lots of Data Analyst as we expected.  
+
+
 
 
 
@@ -123,6 +134,8 @@ Could not find the meaningful relationship between job demand for data analyst a
 
 
 
+
+
 ## Relationship between Information  
 
 
@@ -130,6 +143,8 @@ There are numerically measurable data on salary estimate, company rating, compan
 
 
 ![](img/6.scatter_matrix.jpg) 
+
+
 
 
 
@@ -187,6 +202,7 @@ With 95% confidence interval, bootstrap_salary_lower correlation is from from â€
 
 
 
+
 ## hypothesis 2  
 
 Since Glassdoor shows in their data about what kind of companies (which industry, how many employees they have, how much revenue they generate), when they look for data analysts, it might be interesting to look at whether high revenue generating companies offer higher salary boundary when they offer a job to data analyst.  
@@ -225,6 +241,8 @@ I failed to reject the null hypothesis for both higher and lower salary estimate
 
 
 
+
+
 ## Texas vs California vs New York  
 
 Since CA, NY, TX are the highest Data Analysts demanding states in Glassdoor, I spent some time to investigate company rating and average salary estimate for those states.  
@@ -244,6 +262,7 @@ Due to the difference on salary gap, I made a table of the cost of livings adjus
 
 
 ![](img/12.COLA.png) 
+
 
 
 
