@@ -39,7 +39,7 @@ In the data there are 2253 company job postings with information below.
 
 ## Top 20 cities Demand on Data Analysts  
 
-![](img/2.Top_20_Cities_for_Data Analysts_Job_Demand.jpg)
+![](https://github.com/bethsung1011/capstone_1/blob/main/img/2.Top_20_Cities_for_Data%20Analysts_Job_Demand.jpg)
 
 
 
