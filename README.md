@@ -2,77 +2,93 @@
 
 [Data Analyst Jobs](https://www.kaggle.com/andrewmvd/data-analyst-jobs)
 
+
 ![](img/0.intro.png)
 
-### information of the dataset:
+
+
+Today I am going to present Glassdoor Data Analyst job posting. 
+
+In the data there are 2253 company job postings with information below.   
+
+
+
+## information of the dataset:
+
   - 2253 job listings scraped from glassdoor
-  - Job title :  1272
-  - Salary Range :  90 
-  - Job Description :  many
-  - Rating : 37
-  - Comapny Name : 2253
-  - Location : 
-  - Headquarter : 
+  - Job title 
+  - Salary Range 
+  - Job Description 
+  - Rating 
+  - Comapny Name 
+  - Location 
+  - Headquarter 
   - Size
   - Founded
   - Type of ownership
   - Industry
   - Sector
   - Revenue
-  - Competitors 
-  - Easy To Apply
 
 
----------------------------- 
-
-
-### States looking for data analysts are CA, TX, NY, and IL 
+## Demand on Data Analysts per State 
 
 ![](img/1.data_analysts_job_demand.jpg)
 
+
+
+## Top 20 cities Demand on Data Analysts  
+
 ![](img/2.Top_20_Cities_for_Data Analysts_Job_Demand.jpg)
 
----------------------------- 
 
-### Salary Range: 24K-190K  
+
+## State Median Salary Estimate 
+
+![](img/2.states_median.png)
+
+
+## Salary Range: 24K-190K  
 
 Min Max Salary of Data Analyst job in Glass door in general  
 
-![](img/2.states_median.png)
+![](img/3.min_max_salary.jpg)
 
 Mean of maximum salary estimate: 89 K 
 Mean of minimum salary estimate:  50 K  
 
-![](img/3.min_max_salary.jpg)
 
----------------------------- 
+## Company generate high revenue 
 
-### Rich company (Company generate high revenue) looking for data analyst are : 
+Company generate high revenue looking for data analyst are :
 
 	- Insurance 
-    Mining 
-    Aerospace 
-    Finance 
+  - Mining 
+  - Aerospace 
+  - Finance 
 
 ![](img/4.Revenue_of_Industry_Sectors_demanding_Data_Analyst.png)
 
 
 
+## Industrial Sector Demanding Data Analyst
 
 
 ![](img/5.Demand_on_Data_Analyst_per_Sector.jpg)
 
 
-
+## Employee Size Demanding Data Analyst
 
 ![](img/5.Employee_Size_demanding_Data_Analysts.png)
 
 
-
+## Relationship between Information 
 
 ![](img/6.scatter_matrix.jpg)
 
 
+
+I am going to focus on salary estimate, company rating, company location, industrial sector, and revenue of the company that look for data analysts. 
 
 
 -------------Statistical Test-------------------- 
