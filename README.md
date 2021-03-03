@@ -261,7 +261,7 @@ In case of salary estimate, California pays most and Texas pays the least.
 Due to the difference on salary gap, I made a table of the cost of livings adjustment comparison reflecting average salary per state. 
 
 
-
+![](img/COLA.png) 
 
 
 
